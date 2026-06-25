@@ -58,37 +58,55 @@ export const socialLinks = {
   twitter: "https://twitter.com/dipanadhikari",    
   mail: "mailto:contact@dipan-adhikari.dev",           
   email: "mailto:contact@dipan-adhikari.dev", 
-  discord: "https://discord.com/users/1298821740897501196", // Fixed and populated with profile link
+  discord: "https://discord.com/users/1298821740897501196",
 };
 
-// Fixed goalsData structure to completely resolve goals-section.tsx type error
+// Fully equipped goalsData structure containing all alternative field names and progress values
 export const goalsData = {
   shortTerm: [
     {
       goal: "Prepare thoroughly for advanced Computer Science programs and maintain academic excellence.",
-      timeline: "Next 6-12 months"
+      title: "Academic Preparation",
+      description: "Prepare thoroughly for advanced Computer Science programs and maintain academic excellence.",
+      timeline: "Next 6-12 months",
+      progress: 50
     },
     {
       goal: "Finalize CompTIA Security+ certification and complete advanced practical labs.",
-      timeline: "Next 6-12 months"
+      title: "Security+ Certification",
+      description: "Finalize CompTIA Security+ certification and complete advanced practical labs.",
+      timeline: "Next 6-12 months",
+      progress: 35
     },
     {
       goal: "Build robust automation frameworks and expand localized secure network configurations.",
-      timeline: "Next 6-12 months"
+      title: "Automation & Infrastructure",
+      description: "Build robust automation frameworks and expand localized secure network configurations.",
+      timeline: "Next 6-12 months",
+      progress: 70
     }
   ],
   longTerm: [
     {
       goal: "Conduct high-impact academic research in structural cybersecurity and secure computing systems.",
-      timeline: "1-3 years"
+      title: "Cybersecurity Research",
+      description: "Conduct high-impact academic research in structural cybersecurity and secure computing systems.",
+      timeline: "1-3 years",
+      progress: 0
     },
     {
       goal: "Develop next-generation hosting infrastructure scales and expand the WaterNodes™ project platform.",
-      timeline: "2-4 years"
+      title: "Infrastructure Expansion",
+      description: "Develop next-generation hosting infrastructure scales and expand the WaterNodes™ project platform.",
+      timeline: "2-4 years",
+      progress: 0
     },
     {
       goal: "Drive regional technical innovation and spearhead international tech governance initiatives.",
-      timeline: "5+ years"
+      title: "Global Tech Leadership",
+      description: "Drive regional technical innovation and spearhead international tech governance initiatives.",
+      timeline: "5+ years",
+      progress: 0
     }
   ]
 };
