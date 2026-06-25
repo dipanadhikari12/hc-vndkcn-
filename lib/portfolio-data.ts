@@ -51,12 +51,13 @@ export const navigationItems = [
   { label: "Contact", href: "#contact" },
 ];
 
-// Added explicitly to fix import errors across footer.tsx, contact-section.tsx, and resume-section.tsx
+// Added both 'mail' and 'email' as a safeguard to support all layout components
 export const socialLinks = {
   github: "https://github.com/dipanadhikari12",
   linkedin: "https://linkedin.com/in/dipanadhikari", 
   twitter: "https://twitter.com/dipanadhikari",    
   mail: "mailto:contact@dipan-adhikari.dev",           
+  email: "mailto:contact@dipan-adhikari.dev", // Safeguard duplicate mapping
 };
 
 // Added explicitly to fix the import error inside components/sections/goals-section.tsx
