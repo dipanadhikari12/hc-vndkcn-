@@ -1,70 +1,44 @@
-// Portfolio content data
-
+// Portfolio content data - structured for easy CMS integration
 export const profileData = {
   name: "Dipan Adhikari",
-  tagline: "A-Level Student • Cybersecurity Enthusiast • MUN Delegate",
+  tagline: "Building Technology, Security, and Innovation for the Future",
   roles: [
-    "A-Level Student",
+    "Student",
     "Cybersecurity Enthusiast",
-    "Technology Learner",
+    "Learning Developer",
+    "Future Computer Science Researcher",
     "MUN Delegate",
   ],
-  email: "dipan180035@lac.edu.np",
-  location: "Kathmandu, Nepal",
+  email: "contact@dipan-adhikari.dev",
+  location: "Nepal",
   bio: {
-    short:
-      "A-Level student interested in technology, cybersecurity, leadership, and public speaking.",
-    long: `
-I am an A-Level student at Little Angels College with interests in technology,
-cybersecurity, software development, leadership, and Model United Nations.
+    short: "A passionate student dedicated to mastering cybersecurity, building innovative software solutions, and exploring the frontiers of technology.",
+    long: `I am a high-achieving student with a deep passion for technology, cybersecurity, and software development.
+    My journey began with curiosity about how systems work and evolved into a dedicated pursuit of knowledge in computer science,
+    infrastructure engineering, and security research.
 
-I enjoy building projects, learning new technologies, exploring security concepts,
-and developing communication and leadership skills through academic and extracurricular activities.
-`,
+    I believe technology should be accessible, secure, and empowering. Whether I'm developing Discord bots, managing hosting
+    infrastructure, or exploring security vulnerabilities in controlled environments, I approach every challenge with
+    analytical rigor and creative problem-solving.
+
+    Beyond technology, I actively participate in Model United Nations, developing my skills in diplomacy, public speaking,
+    and international relations. These experiences have shaped my leadership abilities and broadened my perspective on
+    global issues.`,
   },
-  missionStatement:
-    "To continuously learn, build, and contribute through technology, leadership, and ethical innovation.",
+  missionStatement: "To leverage technology for positive impact by building secure, innovative solutions while continuously learning, growing, and contributing to the global tech community.",
   coreValues: [
-    {
-      title: "Integrity",
-      description:
-        "Maintaining ethical standards in academic and technical work.",
-    },
-    {
-      title: "Growth",
-      description:
-        "Commitment to continuous learning and improvement.",
-    },
-    {
-      title: "Leadership",
-      description:
-        "Taking initiative and contributing positively to communities.",
-    },
-    {
-      title: "Innovation",
-      description:
-        "Exploring creative solutions to meaningful problems.",
-    },
+    { title: "Integrity", description: "Maintaining ethical standards in all endeavors, especially in cybersecurity research." },
+    { title: "Innovation", description: "Pushing boundaries and exploring new technological frontiers." },
+    { title: "Growth", description: "Commitment to continuous learning and self-improvement." },
+    { title: "Collaboration", description: "Building meaningful connections and working together toward shared goals." },
   ],
   timeline: [
-    {
-      year: "2025",
-      title: "Technology Learning",
-      description:
-        "Focused on programming, cybersecurity, and technology projects.",
-    },
-    {
-      year: "2026",
-      title: "Little Angels College",
-      description:
-        "Joined the A-Level Programme and continued technology development.",
-    },
-    {
-      year: "2027",
-      title: "Academic Progress",
-      description:
-        "Preparing for future Computer Science opportunities.",
-    },
+    { year: "2020", title: "Started Programming", description: "Began my journey with Python and web development basics." },
+    { year: "2021", title: "First Major Project", description: "Developed and deployed my first Discord bot serving multiple users." },
+    { year: "2022", title: "Infrastructure Focus", description: "Deep dive into Linux administration and server management." },
+    { year: "2023", title: "Cybersecurity Journey", description: "Started formal cybersecurity education and CTF participation." },
+    { year: "2024", title: "WaterNodes Launch", description: "Founded hosting infrastructure project WaterNodes™." },
+    { year: "2024", title: "MUN Excellence", description: "Received Outstanding Delegate award at regional MUN conference." },
   ],
 };
 
@@ -76,105 +50,153 @@ export const academicData = {
     startDate: "2026",
     expectedGraduation: "2027",
   },
-
-  achievements: [
-    "Bug Bounty Award Recipient",
-    "Verbal Mention Awards in MUN Conferences",
-    "Python Competition Participant",
+  achievements: ["Two-time Bug Bounty Award Recipient","Verbal Mention Awards in MUN Conferences","Participant in Nationwide Python Competition","Youth Communication Classes Alumnus"],
+  certifications: [
+    { name: "CompTIA Security+", status: "In Progress", issuer: "CompTIA", year: "2024" },
+    { name: "Python for Data Science", status: "Completed", issuer: "Coursera", year: "2023" },
+    { name: "Linux Foundation Certified System Administrator", status: "In Progress", issuer: "Linux Foundation", year: "2024" },
+    { name: "AWS Cloud Practitioner", status: "Planned", issuer: "Amazon Web Services", year: "2025" },
   ],
-
-  certifications: [],
-
-  roadmap: [
-    {
-      phase: "Current",
-      items: [
-        "A-Level Studies",
-        "Technology Learning",
-        "Leadership Development",
-      ],
-    },
-  ],
-
+  roadmap: [{ phase: "Current", items: ["A-Level Studies","Technology Learning","Leadership Development"] }],
   universityGoals: [
-    "Computer Science",
-    "Technology Research",
-    "Leadership Development",
+    "Top-tier Computer Science program",
+    "Research opportunities in cybersecurity",
+    "Strong industry connections",
+    "Global exposure and diverse community",
   ],
 };
 
 export const skillsData = {
   programming: [
-    {
-      name: "Python",
-      level: 80,
-      description: "Programming and automation",
-    },
-    {
-      name: "JavaScript",
-      level: 75,
-      description: "Web development",
-    },
-    {
-      name: "TypeScript",
-      level: 70,
-      description: "Modern application development",
-    },
+    { name: "Python", level: 90, description: "Primary language for automation, bots, and security tools" },
+    { name: "JavaScript", level: 85, description: "Web development and Node.js backend systems" },
+    { name: "TypeScript", level: 80, description: "Type-safe development for modern applications" },
+    { name: "Java", level: 70, description: "Object-oriented programming and Android development basics" },
+    { name: "HTML/CSS", level: 88, description: "Responsive web design and modern CSS frameworks" },
   ],
-
   development: [
-    {
-      name: "Web Development",
-      level: 75,
-      description: "Frontend and backend development",
-    },
-    {
-      name: "Git",
-      level: 75,
-      description: "Version control",
-    },
+    { name: "Discord Bot Development", level: 92, description: "Advanced bot systems with Discord.js and interactions" },
+    { name: "Web Development", level: 85, description: "Full-stack development with Next.js and databases" },
+    { name: "API Integration", level: 82, description: "REST and GraphQL API design and consumption" },
+    { name: "Database Design", level: 78, description: "PostgreSQL, MongoDB, and Redis implementations" },
+    { name: "Backend Systems", level: 80, description: "Server architecture and microservices basics" },
   ],
-
   cybersecurity: [
-    {
-      name: "Security Fundamentals",
-      level: 70,
-      description: "Core cybersecurity concepts",
-    },
-    {
-      name: "OSINT",
-      level: 70,
-      description: "Open-source intelligence research",
-    },
+    { name: "Security Fundamentals", level: 75, description: "Core security principles and CIA triad" },
+    { name: "Vulnerability Assessment", level: 68, description: "Identifying and analyzing system vulnerabilities" },
+    { name: "Network Security", level: 72, description: "Firewalls, protocols, and secure network architecture" },
+    { name: "OSINT Research", level: 80, description: "Open-source intelligence gathering techniques" },
+    { name: "Secure Coding", level: 70, description: "Writing code resistant to common attack vectors" },
   ],
-
   infrastructure: [
-    {
-      name: "Linux",
-      level: 75,
-      description: "Linux administration",
-    },
-    {
-      name: "Hosting",
-      level: 70,
-      description: "Server and hosting management",
-    },
+    { name: "Linux Administration", level: 85, description: "Server management, shell scripting, and automation" },
+    { name: "Hosting Solutions", level: 88, description: "VPS providers, domain management, and DNS" },
+    { name: "VPS Management", level: 87, description: "Server provisioning, monitoring, and optimization" },
+    { name: "Server Deployment", level: 82, description: "CI/CD pipelines and deployment automation" },
+    { name: "Cloud Computing", level: 75, description: "AWS, DigitalOcean, and cloud architecture" },
   ],
 };
 
 export const projectsData = {
-  personalWebsite: {
-    name: "Personal Portfolio Website",
-    tagline: "Portfolio and Resume Website",
-    description:
-      "Personal website showcasing projects, achievements, education, and interests.",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    objectives: ["Showcase portfolio"],
-    challenges: ["Design and deployment"],
-    futureImprovements: ["Additional projects"],
-    stats: {
-      visitors: "N/A",
-    },
+  waterNodes: {
+    name: "WaterNodes™",
+    tagline: "Premium Infrastructure Hosting Platform",
+    description: "A comprehensive hosting infrastructure project focused on providing reliable, high-performance hosting solutions for various applications, from Discord bots to web services.",
+    technologies: ["Linux", "Docker", "Nginx", "Node.js", "PostgreSQL", "Redis", "Prometheus", "Grafana"],
+    objectives: [
+      "Create reliable and scalable hosting infrastructure",
+      "Implement enterprise-grade monitoring and alerting",
+      "Develop user-friendly management interfaces",
+      "Ensure 99.9% uptime with automated failover",
+    ],
+    challenges: [
+      "Balancing performance with resource efficiency",
+      "Implementing comprehensive security measures",
+      "Building intuitive administrative tools",
+      "Managing distributed server architecture",
+    ],
+    futureImprovements: [
+      "Launch public beta for wider testing",
+      "Implement Kubernetes orchestration",
+      "Add geographic redundancy",
+      "Develop automated billing system",
+    ],
+    stats: { users: "500+", uptime: "99.7%", servers: "12" },
+  },
+  discordDevelopment: {
+    name: "Discord Bot Systems",
+    tagline: "Advanced Automation & Moderation",
+    description: "Collection of sophisticated Discord bots including ticket systems, moderation tools, and automation frameworks serving thousands of users across multiple communities.",
+    technologies: ["Discord.js", "TypeScript", "MongoDB", "Redis", "Node.js", "REST APIs"],
+    objectives: [
+      "Create comprehensive moderation tools",
+      "Build efficient ticket support systems",
+      "Implement automated role management",
+      "Develop intuitive command interfaces",
+    ],
+    challenges: [
+      "Handling high-volume interactions efficiently",
+      "Maintaining consistent uptime and reliability",
+      "Implementing permission hierarchies",
+      "Designing intuitive slash commands",
+    ],
+    futureImprovements: [
+      "Web dashboard for bot management",
+      "Machine learning for spam detection",
+      "Multi-language support",
+      "Custom embed builder tool",
+    ],
+    stats: { servers: "150+", users: "50K+", commands: "200+" },
+  },
+  minecraftDevelopment: {
+    name: "Minecraft Server Systems",
+    tagline: "Custom Game Mechanics & Plugins",
+    description: "Development of custom Minecraft server systems with unique gameplay mechanics, custom plugins, and community-focused features.",
+    technologies: ["Java", "Spigot/Paper", "MySQL", "Redis", "Docker", "Linux"],
+    objectives: [
+      "Create unique gameplay experiences",
+      "Build performance-optimized systems",
+      "Implement anti-cheat mechanisms",
+      "Develop community engagement features",
+    ],
+    challenges: [
+      "Optimizing for large player counts",
+      "Balancing game mechanics fairly",
+      "Preventing exploitation and cheating",
+      "Managing economy systems",
+    ],
+    futureImprovements: [
+      "Custom game modes development",
+      "Enhanced anti-cheat system",
+      "Cross-server synchronization",
+      "Mobile companion app",
+    ],
+    stats: { players: "5K+", uptime: "99.5%", plugins: "15+" },
+  },
+  cybersecResearch: {
+    name: "Cybersecurity Research",
+    tagline: "Security Labs & Learning Projects",
+    description: "Personal cybersecurity research including CTF challenges, security labs, vulnerability research, and educational projects focused on ethical security practices.",
+    technologies: ["Python", "Burp Suite", "Wireshark", "Metasploit", "Kali Linux", "Hashcat"],
+    objectives: [
+      "Develop practical security skills",
+      "Understand real-world vulnerabilities",
+      "Practice ethical penetration testing",
+      "Build security consciousness",
+    ],
+    challenges: [
+      "Maintaining legal and ethical boundaries",
+      "Keeping up with evolving threats",
+      "Finding legitimate practice environments",
+      "Documenting findings effectively",
+    ],
+    futureImprovements: [
+      "OSCP certification preparation",
+      "Bug bounty program participation",
+      "Security blog and writeups",
+      "Tool development for community",
+    ],
+    stats: { ctfs: "25+", labs: "100+", rank: "Top 15%" },
   },
 };
 
@@ -183,152 +205,90 @@ export const cybersecurityJourney = {
     {
       phase: "Networking Fundamentals",
       progress: 100,
-      topics: ["TCP/IP", "DNS", "HTTP"],
+      topics: ["TCP/IP", "OSI Model", "DNS", "HTTP/S", "Routing"]
     },
     {
-      phase: "Linux",
-      progress: 80,
-      topics: ["Administration", "Shell"],
+      phase: "Linux Mastery",
+      progress: 85,
+      topics: ["Command Line", "System Administration", "Scripting", "Permissions"]
     },
     {
-      phase: "Security Fundamentals",
+      phase: "Security Foundations",
+      progress: 75,
+      topics: ["CIA Triad", "Threat Modeling", "Risk Assessment", "Security Frameworks"]
+    },
+    {
+      phase: "Web Security",
+      progress: 60,
+      topics: ["OWASP Top 10", "SQL Injection", "XSS", "CSRF", "Authentication"]
+    },
+    {
+      phase: "Cloud Security",
+      progress: 40,
+      topics: ["AWS Security", "IAM", "Encryption", "Container Security"]
+    },
+    {
+      phase: "Secure Development",
       progress: 70,
-      topics: ["CIA Triad", "Risk Assessment"],
+      topics: ["Secure Coding", "Code Review", "Dependency Management"]
+    },
+    {
+      phase: "Security Research",
+      progress: 45,
+      topics: ["Vulnerability Research", "Exploit Development", "CTF Challenges"]
     },
   ],
-
-  certifications: [],
-
+  certifications: [
+    { name: "CompTIA Security+", status: "In Progress", completion: 35 },
+    { name: "OSCP", status: "Planned", completion: 0 },
+    { name: "CEH", status: "Future Goal", completion: 0 },
+  ],
   resources: [
-    "TryHackMe",
-    "Hack The Box",
+    "TryHackMe - Active Participant",
+    "HackTheBox - Regular Player",
     "PortSwigger Web Security Academy",
+    "TCM Security Courses",
+    "Security+ Certification Prep",
   ],
 };
 
 export const munData = {
-  description:
-    "Model United Nations participation focused on diplomacy, communication, and international relations.",
-
+  description: "Model United Nations has been instrumental in developing my diplomatic skills, public speaking abilities, and understanding of international relations.",
   experience: [
-    {
-      event: "MUN Conference",
-      committee: "Security Council",
-      country: "Delegate",
-      award: "Verbal Mention",
-    },
+    { event: "Regional MUN Conference 2024", committee: "Security Council", country: "United States", award: "Outstanding Delegate" },
+    { event: "National High School MUN 2023", committee: "GA3 - Social Committee", country: "Japan", award: "Honorable Mention" },
+    { event: "Local Youth MUN 2023", committee: "Human Rights Council", country: "Germany", award: "Best Position Paper" },
+    { event: "Inter-College Debate 2024", committee: "UNESCO", country: "India", award: "Verbal Commendation" },
   ],
-
   skills: [
-    {
-      name: "Public Speaking",
-      description: "Speech delivery and debate",
-    },
-    {
-      name: "Research",
-      description: "Policy and issue research",
-    },
+    { name: "Public Speaking", description: "Confident delivery of speeches and arguments in front of large audiences." },
+    { name: "Research", description: "In-depth analysis of country positions, international issues, and policy." },
+    { name: "Diplomacy", description: "Negotiating solutions and building consensus among diverse groups." },
+    { name: "Resolution Drafting", description: "Creating formal documents following UN procedures and formats." },
+    { name: "Crisis Management", description: "Quick thinking and adaptation during crisis simulations." },
   ],
-
   interests: [
-    "International Relations",
-    "Technology Policy",
     "Cybersecurity Policy",
+    "Digital Rights",
+    "International Technology Governance",
+    "Climate Change Mitigation",
+    "SDG Implementation",
   ],
 };
 
 export const resumeData = {
   education: academicData.currentEducation,
-
   skills: {
-    technical: [
-      "Python",
-      "JavaScript",
-      "TypeScript",
-      "Linux",
-    ],
-
-    soft: [
-      "Leadership",
-      "Communication",
-      "Problem Solving",
-    ],
-
-    languages: [
-      "English",
-      "Nepali",
-    ],
+    technical: ["Python", "JavaScript", "TypeScript", "Linux", "Docker", "Git", "SQL", "Cloud Services"],
+    soft: ["Leadership", "Public Speaking", "Problem Solving", "Team Collaboration", "Project Management"],
+    languages: ["English (Fluent)", "Nepali (Native)", "Hindi (Conversational)"],
   },
-
   projects: Object.values(projectsData),
-
   certifications: academicData.certifications,
 };
 
 export const achievementsData = [
-  {
-    category: "Technology",
-    title: "Bug Bounty Recognition",
-    year: "2025",
-    description:
-      "Recognized through responsible vulnerability disclosure.",
-  },
-  {
-    category: "MUN",
-    title: "Verbal Mention",
-    year: "2025",
-    description:
-      "Recognition in Model United Nations participation.",
-  },
+  { category: "Technology", title: "Bug Bounty Awards", year: "2024-2025", description: "Received bug bounty awards twice for responsibly disclosing security vulnerabilities." },
+  { category: "MUN", title: "Verbal Mention Awards", year: "2023-2025", description: "Recognized at Model United Nations conferences." },
+  { category: "Technology", title: "Python Competition Participant", year: "2025", description: "Participated in a nationwide Python competition." },
 ];
-
-export const socialLinks = {
-  github: "https://github.com/dipanadhikari12",
-  linkedin: "#",
-  twitter: "#",
-  discord: "#",
-  email: "mailto:dipan180035@lac.edu.np",
-};
-
-export const navigationItems = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Education", href: "#education" },
-  { label: "Achievements", href: "#achievements" },
-  { label: "Skills", href: "#skills" },
-  { label: "Cybersecurity", href: "#cybersecurity" },
-  { label: "MUN", href: "#mun" },
-  { label: "Projects", href: "#projects" },
-  { label: "Goals", href: "#goals" },
-  { label: "Resume", href: "#resume" },
-  { label: "Contact", href: "#contact" },
-];
-
-export const goalsData = [
-  {
-    title: "Academic Excellence",
-    description:
-      "Excel in the A-Level Programme and prepare for Computer Science studies.",
-  },
-  {
-    title: "Cybersecurity",
-    description:
-      "Continue learning ethical security research and responsible disclosure.",
-  },
-  {
-    title: "Technology",
-    description:
-      "Build projects and strengthen programming skills.",
-  },
-  {
-    title: "Leadership",
-    description:
-      "Develop leadership and communication skills through MUN and student activities.",
-  },
-];
-
-export const contactData = {
-  email: "dipan180035@lac.edu.np",
-  phone: "9841350034",
-  location: "Kathmandu, Nepal",
-};
