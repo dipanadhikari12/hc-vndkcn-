@@ -61,21 +61,37 @@ export const socialLinks = {
   discord: "https://discord.com/users/1298821740897501196", // Fixed and populated with profile link
 };
 
-// Added explicitly to fix the import error inside components/sections/goals-section.tsx
-export const goalsData = [
-  {
-    id: 1,
-    title: "Short-term Goal",
-    description: "Prepare thoroughly for advanced Computer Science programs, finalize CompTIA Security+, and build robust automation systems.",
-    timeline: "Next 6-12 months"
-  },
-  {
-    id: 2,
-    title: "Long-term Goal",
-    description: "Conduct high-impact academic research in structural cybersecurity, develop secure scale-infrastructure systems, and drive regional technical innovation.",
-    timeline: "1-3 years"
-  }
-];
+// Fixed goalsData structure to completely resolve goals-section.tsx type error
+export const goalsData = {
+  shortTerm: [
+    {
+      goal: "Prepare thoroughly for advanced Computer Science programs and maintain academic excellence.",
+      timeline: "Next 6-12 months"
+    },
+    {
+      goal: "Finalize CompTIA Security+ certification and complete advanced practical labs.",
+      timeline: "Next 6-12 months"
+    },
+    {
+      goal: "Build robust automation frameworks and expand localized secure network configurations.",
+      timeline: "Next 6-12 months"
+    }
+  ],
+  longTerm: [
+    {
+      goal: "Conduct high-impact academic research in structural cybersecurity and secure computing systems.",
+      timeline: "1-3 years"
+    },
+    {
+      goal: "Develop next-generation hosting infrastructure scales and expand the WaterNodes™ project platform.",
+      timeline: "2-4 years"
+    },
+    {
+      goal: "Drive regional technical innovation and spearhead international tech governance initiatives.",
+      timeline: "5+ years"
+    }
+  ]
+};
 
 export const academicData = {
   currentEducation: {
