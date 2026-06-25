@@ -292,3 +292,23 @@ export const achievementsData = [
   { category: "MUN", title: "Verbal Mention Awards", year: "2023-2025", description: "Recognized at Model United Nations conferences." },
   { category: "Technology", title: "Python Competition Participant", year: "2025", description: "Participated in a nationwide Python competition." },
 ];
+export const socialLinks = {
+  github: "https://github.com/dipanadhikari12",
+  linkedin: "#",
+  twitter: "#",
+  email: "mailto:dipan180035@lac.edu.np",
+};
+
+export const navigationItems = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Education", href: "#education" },
+  { label: "Achievements", href: "#achievements" },
+  { label: "Skills", href: "#skills" },
+  { label: "Cybersecurity", href: "#cybersecurity" },
+  { label: "MUN", href: "#mun" },
+  { label: "Projects", href: "#projects" },
+  { label: "Goals", href: "#goals" },
+  { label: "Resume", href: "#resume" },
+  { label: "Contact", href: "#contact" },
+];
