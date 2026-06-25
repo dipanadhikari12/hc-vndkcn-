@@ -42,6 +42,39 @@ export const profileData = {
   ],
 };
 
+// Added explicitly to fix navigation errors across footer.tsx and navigation.tsx
+export const navigationItems = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
+  { label: "Resume", href: "#resume" },
+  { label: "Contact", href: "#contact" },
+];
+
+// Added explicitly to fix import errors across footer.tsx, contact-section.tsx, and resume-section.tsx
+export const socialLinks = {
+  github: "https://github.com/dipanadhikari12",
+  linkedin: "https://linkedin.com/in/dipanadhikari", 
+  twitter: "https://twitter.com/dipanadhikari",    
+  mail: "mailto:contact@dipan-adhikari.dev",           
+};
+
+// Added explicitly to fix the import error inside components/sections/goals-section.tsx
+export const goalsData = [
+  {
+    id: 1,
+    title: "Short-term Goal",
+    description: "Prepare thoroughly for advanced Computer Science programs, finalize CompTIA Security+, and build robust automation systems.",
+    timeline: "Next 6-12 months"
+  },
+  {
+    id: 2,
+    title: "Long-term Goal",
+    description: "Conduct high-impact academic research in structural cybersecurity, develop secure scale-infrastructure systems, and drive regional technical innovation.",
+    timeline: "1-3 years"
+  }
+];
+
 export const academicData = {
   currentEducation: {
     institution: "Little Angels College",
