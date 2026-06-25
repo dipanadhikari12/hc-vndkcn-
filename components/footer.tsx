@@ -9,7 +9,7 @@ const socials = [
   { name: "GitHub", icon: Github, href: socialLinks.github },
   { name: "LinkedIn", icon: Linkedin, href: socialLinks.linkedin },
   { name: "Twitter", icon: Twitter, href: socialLinks.twitter },
-  { name: "Email", icon: Mail, href: socialLinks.email },
+  { name: "Email", icon: Mail, href: socialLinks.mail }, // Fixed to map correctly to socialLinks.mail
 ];
 
 export function Footer() {
@@ -44,20 +44,23 @@ export function Footer() {
               {profileData.tagline}
             </p>
             <div className="flex gap-3">
-              {socials.map((social) => (
-                <motion.a
-                  key={social.name}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.1, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex h-10 w-10 items-center justify-center rounded-lg bg-muted transition-colors hover:bg-primary hover:text-primary-foreground"
-                  aria-label={social.name}
-                >
-                  <social.icon className="h-5 w-5" />
-                </motion.a>
-              ))}
+              {socials.map((social) => {
+                const IconComponent = social.icon;
+                return (
+                  <motion.a
+                    key={social.name}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1, y: -2 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex h-10 w-10 items-center justify-center rounded-lg bg-muted transition-colors hover:bg-primary hover:text-primary-foreground"
+                    aria-label={social.name}
+                  >
+                    <IconComponent className="h-5 w-5" />
+                  </motion.a>
+                );
+              })}
             </div>
           </motion.div>
 
